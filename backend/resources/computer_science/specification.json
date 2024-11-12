@@ -1,0 +1,838 @@
+{
+    "Component 1": {
+        "Data structures": {
+            "Overview": [
+                {
+                    "requirement": "Describe, interpret and manipulate data structures including arrays (up to three dimensions), records, stacks, queues, trees, linked lists and hash tables.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the manipulation of records and arrays.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Represent the operation of stacks and queues using pointers and arrays.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Represent the operation of linked lists and trees using pointers and arrays.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Select, identify and justify appropriate data structures for given situations.",
+                    "questions": []
+                }
+            ]
+        },
+        "Logical operations": {
+            "Overview": [
+                {
+                    "requirement": "Draw truth tables for Boolean expressions consisting of AND, OR, NOT, XOR, NAND and NOR logical operations.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Apply logical operations to combinations of conditions in programming, including clearing registers, masking, and encryption.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Simplify Boolean expressions using Boolean identities, rules and De Morgan's laws.",
+                    "questions": []
+                }
+            ]
+        },
+        "Algorithms and programs": {
+            "Overview": [
+                {
+                    "requirement": "Explain the term algorithm and describe common methods of defining algorithms, including pseudo-code and flowcharts.",
+                    "questions": []
+                }
+            ],
+            "Variables and constants": [
+                {
+                    "requirement": "Identify and explain the use of constants and variables in algorithms and programs.",
+                    "questions": []
+                }
+            ],
+            "Identifiers": [
+                {
+                    "requirement": "Describe why the use of self-documenting identifiers, annotation and program layout are important in programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Give examples of self-documenting identifiers, annotation and appropriate program layout.",
+                    "questions": []
+                }
+            ],
+            "Scope of variables": [
+                {
+                    "requirement": "Describe the scope and lifetime of variables in algorithms and programs.",
+                    "questions": []
+                }
+            ],
+            "Parameters": [
+                {
+                    "requirement": "Explain the purpose and effect of procedure calling, parameter passing and return, call by reference and call by value.",
+                    "questions": []
+                }
+            ],
+            "Recursion": [
+                {
+                    "requirement": "Explain the use of recursion in algorithms and programs and consider the potential elegance of this approach.",
+                    "questions": []
+                }
+            ],
+            "Mathematical operations": [
+                {
+                    "requirement": "Identify, explain and use mathematical operations in algorithms, including DIV and MOD.",
+                    "questions": []
+                }
+            ],
+            "Validation and verification": [
+                {
+                    "requirement": "Identify, explain and apply appropriate techniques of validation and verification in algorithms and programs.",
+                    "questions": []
+                }
+            ],
+            "Sorting": [
+                {
+                    "requirement": "Explain the need for a variety of sorting algorithms both recursive and non-recursive.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the characteristics of sorting algorithms: bubble sort, insertion sort, quicksort.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the effect of storage space required, number of comparisons of data items, number of exchanges needed and number of passes through the data on the efficiency of a sorting algorithm.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Use Big O notation to determine the efficiency of different sorting algorithms in terms of their time and space requirements and to compare the efficiency of different sorting algorithms.",
+                    "questions": []
+                }
+            ],
+            "Searching": [
+                {
+                    "requirement": "Explain and apply a linear search algorithm.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain and apply the binary search algorithm.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain and apply a shortest-path algorithm.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe appropriate circumstances for the use of each searching technique.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Use Big O notation to determine the efficiency of linear and binary searches in terms of execution time and space requirements and to compare the efficiency of different searching algorithms.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Follow search and sort algorithms and programs and make alterations to such algorithms.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Write search and sort algorithms and programs.",
+                    "questions": []
+                }
+            ],
+            "Programming constructs": [
+                {
+                    "requirement": "Identify, explain and use sequence, selection and repetition in algorithms and programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Identify, explain and use counts and rogue values in algorithms and programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Follow and make alterations to algorithms and programs involving sequence, selection, and repetition.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Write algorithms and programs involving sequence, selection, and repetition to solve non-standard problems.",
+                    "questions": []
+                }
+            ],
+            "Modular programming": [
+                {
+                    "requirement": "Identify and explain the nature, use and possible benefits of standard functions, standard modules and user defined subprograms.",
+                    "questions": []
+                }
+            ],
+            "Logical operations in algorithms and programs": [
+                {
+                    "requirement": "Identify, use and explain the logical operators AND, OR, NOT, XOR, NAND and NOR in algorithms and programs",
+                    "questions": []
+                }
+            ],
+            "Traversal of data structures": [
+                {
+                    "requirement": "Write and interpret algorithms used in the traversal of data structures.",
+                    "questions": []
+                }
+            ],
+            "Compression": [
+                {
+                    "requirement": "Explain data compression and how data compression algorithms are used.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Compare and explain the efficiency of data compression algorithms in terms of compression ratio, compression time, decompression time and saving percentage.",
+                    "questions": []
+                }
+            ],
+            "Testing": [
+                {
+                    "requirement": "Select appropriate test data.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Dry-run a program or algorithm in order to identify possible errors, including logical errors.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the purpose of a given algorithm by showing the effects of test data.",
+                    "questions": []
+                }
+            ],
+            "Comparing algorithms": [
+                {
+                    "requirement": "Use Big O notation to determine the complexity and efficiency of given algorithms in terms of their execution time, their memory requirements and between algorithms that perform the same task.",
+                    "questions": []
+                }
+            ]
+        },
+        "Principles of programming": {
+            "Overview": [
+                {
+                    "requirement": "Explain the nature and relative advantages of different programming paradigms, and identify possible situations where they may be used.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the distinguishing features of different types of programming paradigms, including procedural, eventdriven, visual and mark-up languages.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the role of an object-oriented approach to programming and the relationship between object, class and method.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the need for the standardisation of computer languages, and the potential difficulties involved in agreeing and implementing standards.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Identify ambiguities in natural language and explain the need for computer languages to have an unambiguous syntax.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Interpret and use formal methods of expressing language syntax: syntax diagrams and Backus-Naur form (extended Backus-Naur form is not to be used).",
+                    "questions": []
+                }
+            ],
+            "Levels of computer language": [
+                {
+                    "requirement": "Describe the differences between high-level and lowlevel languages.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Identify and describe situations that require the use of a high-level or a low-level language.",
+                    "questions": []
+                }
+            ],
+            "Types of computer language": [
+                {
+                    "requirement": "Identify and justify which type of language would be best suited to develop a solution to a given problem.",
+                    "questions": []
+                }
+            ]
+        },
+        "Systems analysis": {
+            "Approaches": [
+                {
+                    "requirement": "Describe different appropriate approaches to analysis and design, including Waterfall and Agile.",
+                    "questions": []
+                }
+            ],
+            "Feasibility": [
+                {
+                    "requirement": "Describe the purpose of a feasibility study and describe the processes that an analyst would carry out during a feasibility study.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain that proposed solutions must be cost effective, developed to an agreed time scale and within an agreed budget.",
+                    "questions": []
+                }
+            ],
+            "Investigation": [
+                {
+                    "requirement": "Describe the different methods of investigation.",
+                    "questions": []
+                }
+            ],
+            "Analysis": [
+                {
+                    "requirement": "Analyse a problem using appropriate techniques of abstraction and decomposition.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Represent and interpret systems in an appropriate diagrammatic form showing the flow of data and the information processing requirements.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the selection of suitable software and hardware to address the requirements of a problem.",
+                    "questions": []
+                }
+            ],
+            "Changeover": [
+                {
+                    "requirement": "Describe the various methods of changeover: direct, pilot, phased and parallel, identify the most suitable method for a given situation and its relative merits.",
+                    "questions": []
+                }
+            ],
+            "Program testing": [
+                {
+                    "requirement": "Describe the use of alpha, beta and acceptance testing.",
+                    "questions": []
+                }
+            ],
+            "Maintenance": [
+                {
+                    "requirement": "Describe the nature and use made of perfective, adaptive and corrective maintenance.",
+                    "questions": []
+                }
+            ],
+            "Backup and recovery": [
+                {
+                    "requirement": "Describe different procedures for backing up data.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain how data might be recovered if lost.",
+                    "questions": []
+                }
+            ],
+            "Documentation": [
+                {
+                    "requirement": "Explain at which stage of the development each piece of documentation would be produced.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the contents and use made of user documentation and maintenance documentation.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the components of maintenance documentation, including annotated listings, variable lists, algorithms and data dictionaries.",
+                    "questions": []
+                }
+            ]
+        },
+        "System design": {
+            "Human-computer interaction": [
+                {
+                    "requirement": "Discuss contemporary approaches to the problem of communication with computers.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the potential for a natural language interface.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the problems of ambiguity that can be associated with input that is spoken.",
+                    "questions": []
+                }
+            ],
+            "Design validation": [
+                {
+                    "requirement": "Explain the need for a design review to: check the correspondence between a design and its specification; confirm that the most appropriate techniques have been used; confirm that the user interface is appropriate.",
+                    "questions": []
+                }
+            ],
+            "Design evaluation": [
+                {
+                    "requirement": "Describe criteria for the evaluation of computer based solutions.",
+                    "questions": []
+                }
+            ]
+        },
+        "Software engineering": {
+            "Software tools": [
+                {
+                    "requirement": "Describe the types of software tool that have been designed to assist the software engineering process.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the role of appropriate software packages in systems analysis, systems specification, systems design and testing.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the role of Integrated Development Environment (IDE) tools in developing and debugging programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain program version management.",
+                    "questions": []
+                }
+            ]
+        },
+        "Program construction": {
+            "Compilers, interpreters and assemblers": [
+                {
+                    "requirement": "Describe the function of translation programs in making source programs executable by the computer.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the purpose and give examples of the use of compilers, interpreters and assemblers, and distinguish between them.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the principal stages involved in the compilation process: lexical analysis, symbol table construction, syntax analysis, semantic analysis, code generation and optimisation.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Distinguish between and give examples of translation and execution errors.",
+                    "questions": []
+                }
+            ]
+        },
+        "Economic, moral, legal, ethical and cultural issues relating to computer science": {
+            "Overview": [
+                {
+                    "requirement": "Describe social and economic changes occurring as a result of developments in computing and computer use, and their moral, ethical, legal, cultural and other consequences.",
+                    "questions": []
+                }
+            ],
+            "Professional behaviour": [
+                {
+                    "requirement": "Describe the role of codes of conduct in promoting professional behaviour.",
+                    "questions": []
+                }
+            ],
+            "Effect on employment": [
+                {
+                    "requirement": "Describe the possible effects of computers on the nature of employment in the computing industry and wider society.",
+                    "questions": []
+                }
+            ],
+            "Legislation": [
+                {
+                    "requirement": "Explain how current legislation impacts on security, privacy, data protection and freedom of information.",
+                    "questions": []
+                }
+            ]
+        }
+    },
+    "Component 2": {
+        "Hardware and communication": {
+            "Overview": [
+                {
+                    "requirement": "Identify and describe the hardware and communication elements of contemporary computer systems and how they are connected.",
+                    "questions": []
+                }
+            ],
+            "Architecture": [
+                {
+                    "requirement": "Identify and describe the main components of computer architecture, including Von Neumann and contemporary architectures.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe different types of memory and caching.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe and explain parallel processing and the limiting factors to parallelisation.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Calculate the runtime of given tasks as a result of parallelisation and evaluate the effect of parallelisation.",
+                    "questions": []
+                }
+            ],
+            "Fetch-execute cycle": [
+                {
+                    "requirement": "Describe the fetch-execute cycle, including how data can be read from RAM into registers.",
+                    "questions": []
+                }
+            ],
+            "Assembly language programming": [
+                {
+                    "requirement": "Write simple programs in assembly language and demonstrate how these programs could be executed.",
+                    "questions": []
+                }
+            ],
+            "Input / output": [
+                {
+                    "requirement": "Describe the use of contemporary methods and their associated devices for input and output.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the use of these methods and devices in contemporary computer systems and their suitability in different situations.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe and differentiate between voice input for command and control systems to operate a computer system, vocabulary dictation systems for general input and voice print recognition for security. Discuss the suitability of each system in different situations.",
+                    "questions": []
+                }
+            ],
+            "Secondary storage": [
+                {
+                    "requirement": "Compare the functional characteristics of contemporary secondary storage devices.",
+                    "questions": []
+                }
+            ],
+            "Data storage on disc": [
+                {
+                    "requirement": "Explain fragmentation and its consequences and describe the need for defragmentation.",
+                    "questions": []
+                }
+            ],
+            "Networking": [
+                {
+                    "requirement": "Describe networks and how they communicate.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the importance of networking standards",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the importance and the use of a range of contemporary protocols including HTTP, FTP, SMTP, TCP/IP, IMAP, DHCP, UDP and wireless communication protocols.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the role of handshaking.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Identify and describe applications where connecting a portable device to a network is required.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the hardware required to make a wireless connection and explain how this might be achieved using contemporary wireless technologies.",
+                    "questions": []
+                }
+            ]
+        },
+        "Data transmission": {
+            "Overview": [
+                {
+                    "requirement": "Describe serial and parallel transmission, their advantages and disadvantages.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe simplex, half duplex and full duplex transmission methods.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the need for multiplexing and switching.",
+                    "questions": []
+                }
+            ],
+            "Communication networks": [
+                {
+                    "requirement": "Describe, using appropriate network protocols, such as TCP/IP the typical contents of a packet.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain network collision, network collision detection and how these collisions are dealt with.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe methods of routing traffic on a network.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Calculate data transfer rates on a network.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Calculate lowest cost routes on a network.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the internet in terms of a world-wide communications infrastructure.",
+                    "questions": []
+                }
+            ]
+        },
+        "Data representation and data types": {
+            "Representation of data as bit patterns": [
+                {
+                    "requirement": "Explain the terms bit, byte and word.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe and use the binary number system and the hexadecimal notation as shorthand for binary number patterns.",
+                    "questions": []
+                }
+            ],
+            "Storage of Characters": [
+                {
+                    "requirement": "Describe how characters and numbers are stored in binary form.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe standardised character sets.",
+                    "questions": []
+                }
+            ],
+            "Data types": [
+                {
+                    "requirement": "Describe the different primitive data types: Boolean, character, string, integer and real.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the storage requirements for each data type.",
+                    "questions": []
+                }
+            ],
+            "Representation of numbers as bit patterns": [
+                {
+                    "requirement": "Apply binary arithmetic techniques.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the representation of positive and negative integers in a fixed-length store using both two's complement, and sign and magnitude representation.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the nature and uses of floating point form.",
+                    "questions": []
+                },
+                {
+                    "requirement": "State the advantages and disadvantages of representing numbers in integer and floating point forms.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Convert between real number and floating point form.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe truncation and rounding, and explain their effect upon accuracy.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain and use shift functions: logical and arithmetic shifts. Interpret and apply shifts in algorithms and programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the causes of overflow and underflow.",
+                    "questions": []
+                }
+            ]
+        },
+        "Organisation and structure of data": {
+            "Overview": [
+                {
+                    "requirement": "Explain the purpose of files in data processing.",
+                    "questions": []
+                }
+            ],
+            "File design": [
+                {
+                    "requirement": "Define a file in terms of records and fields.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe how files may be created, organised, updated and processed by programs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain fixed and variable length fields and records and give examples of the appropriate use of each type.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Design files and records appropriate for a particular application.",
+                    "questions": []
+                }
+            ],
+            "File organisation": [
+                {
+                    "requirement": "Distinguish between master and transaction files.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe sequential, indexed sequential and direct (random) file access.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Distinguish between the use of serial and sequential file access methods in computer applications.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe and design algorithms and programs for sequential file access and update.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the purpose of, and be able to use, a hashing algorithm.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Compare different hashing algorithms.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the use of multi-level indexes.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the techniques used to manage overflow and the need for file re-organisation.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain the need for file security, including file backup, generations of files and transaction logs.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the need for archiving files.",
+                    "questions": []
+                }
+            ]
+        },
+        "Databases and distributed systems": {
+            "Overview": [
+                {
+                    "requirement": "Explain what is meant by data consistency, data redundancy and data independence.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe and discuss the benefits and drawbacks of relational database systems and other contemporary database systems.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain what is meant by relational database organisation and data normalisation (first, second and third normal forms).",
+                    "questions": []
+                },
+                {
+                    "requirement": "Restructure data into third normal form.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain and apply entity relationship modelling and use it to analyse simple problems.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the use of primary keys, foreign keys, and indexes.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the advantages of different users having different views of the data in a database.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Explain how the data can be manipulated to provide the user with useful information.",
+                    "questions": []
+                }
+            ],
+            "Data validation and verification": [
+                {
+                    "requirement": "Explain and apply appropriate techniques for data validation and verification of data in databases.",
+                    "questions": []
+                }
+            ],
+            "Searching data": [
+                {
+                    "requirement": "Explain the purpose of query languages.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Construct and run queries using Structured Query Language (SQL).",
+                    "questions": []
+                },
+                {
+                    "requirement": "See Appendix D for the list of SQL commands and operators with which learners should be familiar",
+                    "questions": []
+                }
+            ],
+            "Database management systems": [
+                {
+                    "requirement": "Explain the purpose of a database management system (DBMS) and data dictionaries.",
+                    "questions": []
+                }
+            ],
+            "Big Data": [
+                {
+                    "requirement": "Explain what is meant by Big Data, predictive analytics, data warehousing and data mining.",
+                    "questions": []
+                }
+            ],
+            "Distributed systems": [
+                {
+                    "requirement": "Explain that distribution can apply to both data and processing.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe distributed databases and the advantages of such distribution.",
+                    "questions": []
+                }
+            ]
+        },
+        "The operating system": {
+            "Managing resources": [
+                {
+                    "requirement": "Describe the need for and the role of the operating system kernel in managing resources, including peripherals, processes, memory protection and backing store.",
+                    "questions": []
+                }
+            ],
+            "Providing an interface": [
+                {
+                    "requirement": "Describe the need for and the role of the operating system in providing an interface between the user and the hardware.",
+                    "questions": []
+                }
+            ],
+            "Managing backing store": [
+                {
+                    "requirement": "Explain the hierarchical structure of a directory and describe file attributes.",
+                    "questions": []
+                }
+            ],
+            "Utility software": [
+                {
+                    "requirement": "Explain the need for and use of a range of utility software.",
+                    "questions": []
+                }
+            ],
+            "Modes of operation": [
+                {
+                    "requirement": "Describe the main features of batch processing, real time control and real time transaction systems.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Identify and describe applications that would be suitable to these modes of operation.",
+                    "questions": []
+                }
+            ],
+            "Types of operating system": [
+                {
+                    "requirement": "Explain the following types of system: batch, single-user (standalone), multi-user (multi-access), multi-tasking and multi-programming",
+                    "questions": []
+                }
+            ],
+            "Consideration of human-computer interaction": [
+                {
+                    "requirement": "Explain the need to design systems that are appropriate to the variety of different users at all levels and in different environments.",
+                    "questions": []
+                }
+            ],
+            "Interrupts": [
+                {
+                    "requirement": "Describe a range of conditions or events which could generate interrupts.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe interrupt handling and the use of priorities.",
+                    "questions": []
+                },
+                {
+                    "requirement": "Describe the factors involved in allocating differing priorities.",
+                    "questions": []
+                }
+            ]
+        }
+    }
+}

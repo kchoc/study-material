@@ -1,0 +1,6 @@
+.env
+frontend/MyApp.spec
+frontend/dist
+frontend/build
+
+__pycache__

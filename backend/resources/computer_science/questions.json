@@ -1,0 +1,199 @@
+[
+	{
+		"topics": ["CPU", "OS"],
+		"question_type":"Describe",
+        "texbook": true,
+        "question": "Describe the purpose and process of CPU scheduling.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "5a",
+        "marks": 4,
+		"answer_areas": ["Function of the CPU scheduler", "Reference to priorities", "Reason for delay in process execution", "Maximise use of the CPU"],
+		"answer": [
+			"CPU scheduling is a process that allows one process to use the CPU while the execution of another process is on hold (waiting state)", 
+			"due to unavailability of any resource like I/O etc", 
+			"thereby making full use of CPU.",
+			"Whenever the CPU becomes idle, the operating system must select one of the processes / jobs in the ready queue to be executed. The selection process is carried out by the CPU scheduler.", 
+			"The scheduler selects from among the processes in memory that are ready to execute, according to set priorities, and allocates the CPU to one of them."
+		]
+	},
+	{
+		"topics": ["CPU", "OS"],
+		"question_type":"Describe",
+        "texbook": true,
+        "question": "Describe a disadvantage of priority based scheduling and explain how this may be overcome.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "5b",
+        "marks": 4,
+		"answer": [
+			["If new higher priority processes keep coming into the ready queue, then the processes waiting in the ready queue with lower priority may have to wait for long durations before execution.", 
+			"Possibly leading to indefinite blocking or starvation."],
+			["The concept of aging can be used to prevent starvation of any process.", 
+			"Where the priority of a low-priority job is incremented as waiting time increases."]
+		]
+	},
+    {
+        "topics": ["Databases"],
+        "question_type":"Define",
+        "texbook": true,
+        "question": "Define data consistency.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "3a",
+        "marks": 2,
+        "answer": [
+            "Changes made to different occurrences of data is controlled and managed in such a way that all the occurrences of a specific data item have the same value.",
+            "Ensuring searches produce consistent results."
+        ]
+    },
+    {
+        "topics": ["Databases"],
+        "question_type":"Define",
+        "texbook": true,
+        "question": "Define data redundancy.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "3a",
+        "marks": 2,
+        "answer": [
+            "Occurs when duplicate data is available in different tables.",
+            "Resulting of wastage of storage and compromising data consistency."
+        ]
+    },
+    {
+        "topics": ["Databases"],
+        "question_type":"Define",
+        "texbook": true,
+        "question": "Define data independance.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "3a",
+        "marks": 2,
+        "answer": [
+            "This refers to the separation of information from the applications and programs that use it.",
+            "So that modifications to source code are not required every time changes to the data characteristics / properties are made."
+        ]
+    },
+    {
+        "topics": ["Databases"],
+        "question_type":"Describe",
+        "texbook": true,
+        "question": "Describe an advantage of structuring data in third normal form",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "2c",
+        "marks": 2,
+        "answer": [
+            ["Removing Data duplication", "3rd normal form removes duplicated data reducing the size of the stored file."],
+            ["Protecting Data integrity", "Once Redundant data is removed it is easy to change the data since data is present in only one place."],
+            ["Protecting Data integrity", "Reduction of duplicated data decreases the risk of updating some rather than all instances of an item of data"]
+        ]
+    },
+    {
+        "topics": ["Databases"],
+        "question_type":"Identify",
+        "texbook": true,
+        "question": "Identify the benefits of relational database systems.",
+        "paper": 2,
+        "year": 2022,
+        "question_number": "4a",
+        "marks": 4,
+        "answer": [
+            "Avoids data duplication",
+            "Avoids inconsistent records",
+            "Data can be readily edited and updated",
+            "Data can be added and deleted as required",
+            "Can support complex queries",
+            "Enables different access levels to different data"
+        ]
+    },
+    {
+		"topics": ["Databases"],
+		"question_type": "Explain",
+        "texbook": true,
+		"question": "Explain predictive analytics and data mining.",
+		"paper": 2,
+        "year": 2021,
+        "question_number": "6",
+		"marks": 6,
+		"answer": [
+			["Data mining - Is the process of analysing a large batch of information to discern trends", 
+			"by identifying patterns and connections in data based on what information users request or provide."],
+			["Predictive analytics is a way to predict future events based on past behaviour", 
+			"It's a combination of statistics and data mining"],
+			["Statistical and data mining tools are applied to large data sets", 
+			"to build models to predict what might happen in the future."],
+			["Predictive analytics assigns a probability (predictive score) for the likelihood that something such as a customer, will behave a certain way.", 
+			"It is used to predict behaviour and assess risk over a wide variety of disciplines."]
+		]
+	},
+	{
+		"topics": ["Databases"],
+		"question_type":"Explain",
+        "texbook": true,
+		"question": "Explain, giving an example for each, Big Data, data mining and predictive analytics",
+		"paper": 2,
+        "year": 2020,
+        "question_number": "12",
+		"marks": 9,
+		"answer": [
+			["Big Data - very large datasets (volume)", "that are so complex (variety of datatypes) that traditional databases are unable to manage and process them within acceptable time frames. (velocity)"],
+			"e.g. Transactional data from ecommerce Machine data from GPS / RFID readers Social media interactions. ",
+			["Data mining is the retrieval and analysis of large sets of data in data warehouses", "to identify trends and patterns."],
+			"e.g. identifying market opportunities health trends",
+			["Predictive analytics is a sub-set of data mining", "used to make predictions about future events, based on individual historical behaviour"],
+			"e.g. weather/ economic forecasting insurance risk assessment targeted marketing"
+		]
+	},
+    {
+        "topics": ["Data Representation"],
+		"question_type":"Identify",
+        "texbook": false,
+		"question": "Identify three advantages offered by QR codes over traditional barcodes.",
+		"paper": 2,
+        "year": 2023,
+        "question_number": "1a",
+		"marks": 3,
+		"answer": [
+			"Higher capacity / Require less space / the same data can be stored over a smaller surface area.",
+            "Readable from any direction",
+            "Damage resistant when printed / built in error correction",
+            "Allow for structured appending / data split over multiple codes",
+            "Scanning software or application is supplied with smartphones"
+		]
+    },
+    {
+        "topics": ["Data Representation"],
+		"question_type":"Describe",
+        "texbook": false,
+		"question": "A QR code can be used to input a URL, which when scanned could be used by the device's browser to open a webpage. \n Describe two other uses of QR codes.",
+		"paper": 2,
+        "year": 2023,
+        "question_number": "1b",
+		"marks": 4,
+		"answer": [
+			["Calendar data", "Including appointment details that may be saved directly to a digital diary"],
+            ["Location data", "That can be scanned and processed to give directions"],
+            ["Email address", "That can be used to open a blank email / locator form with pre-defined recipient and subject"]
+		]
+    },
+    {
+        "topics": ["Databases"],
+        "question_type":"Explain",
+        "texbook": true,
+        "question": "Explain predictive analytics.",
+        "paper": 2,
+        "year": 2023,
+        "question_number": "2a",
+        "marks": 4,
+        "answer": [
+            "The use of data, statistical algorithms / machine learning / modelling techniques.",
+            "to identify the likelihood of future outcomes / trends.",
+            "Based on historical data.",
+            "Provides an assessment of what will happen in the future.",
+            "Produce data visualisations",
+            "Data cleansing and transformation"
+        ]
+    }
+]
